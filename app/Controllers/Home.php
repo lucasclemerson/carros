@@ -6,6 +6,8 @@ class Home extends BaseController
 {
     public function index()
     {
-        return view('home');
+        $dados['nome_sitema']="CARROS";
+        $dados['titulo']="HOME | ".$dados['nome_sitema'];
+        return view('home', $dados);
     }
 }

@@ -1,8 +1,18 @@
-<?php
-    
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <?php 
+            $this->include('metas'); 
+            $this->include('css');
+        ?>
 
-?>
+        <title><?=$titulo?></title>
+    </head>
+    <body>
 
+
+    </body>
+</html>
 
 
 <?php /*
