@@ -8,6 +8,7 @@ class Home extends BaseController
     {
         $dados['nome_sitema']="CARROS";
         $dados['titulo']="HOME | ".$dados['nome_sitema'];
-        return view('home', $dados);
+        $dados['body']="home";
+        return view('index', $dados);
     }
 }
